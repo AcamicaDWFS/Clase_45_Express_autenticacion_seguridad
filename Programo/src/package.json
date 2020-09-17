@@ -1,15 +1,12 @@
 {
-  "name": "programo",
+  "name": "dwfs_encuentro_45_jwt",
   "version": "1.0.0",
-  "description": "JWT Web token ejemplo",
+  "description": "Programo Acamica",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "promamo"
-  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
