@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <button id="btn-home"><img id="home" src="assets/casa.jpg" alt="home"></button>
+        <ul class="nav justify-content-end">
+            <button type="button" class="btn btn-light" id="btn-login">Login</button>
+        </ul>
+    </header>
+    <main>
+        <!--Pantalla login-->
+        <section id="loginSection">
+        <div class="container-fluid" >
+            <div class="col-lg-6 form-block px-4">
+                <div class="col-lg-8 col-md-6 col-sm-8 col-xs-12 form-box">
+                    <div class="text-center mb-3 mt-5">
+                    </div>
+                    <h4 class="text-center mb-4">
+                        Inicia sesión
+                    </h4>
+                    <form action="/login" id="loginForm" method="POST" autocomplete="off">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="btn-submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+    <script src="js/sections.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

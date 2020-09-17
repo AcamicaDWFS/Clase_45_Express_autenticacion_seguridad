@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+
+header{
+	margin: 10px;
+}
+
+#home{
+	height: 40px;
+	width: 30px;
+	cursor: pointer;
+}
+
+body{
+	background-image: url(https://img4.goodfon.com/original/1366x768/a/8b/vector-blue-squares-abstract-background-geometric.jpg);
+}
+
+.form-block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 200px;
+}
+.form-box{
+	background-color: white;
+	border: 3px solid #1cabc4;
+	border-radius: 10%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.form-box h4{
+	font-weight: bold;
+}
+
+.form-box .form-input{
+	position: relative;
+}
+
+.form-box .form-input input{
+	width: 60%;
+	height: 40px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	box-shadow: none;
+	border: 2px solid #8adff0;
+	border-radius: 40px;
+	outline: none;
+	color: black;
+	background: transparent;
+	padding-left: 40px;
+}
+
+.form-box .form-input span{
+	position: absolute;
+	top: 8px;
+	padding-left: 15px;
+	color: #ff6347;
+}
+
+.form-box .form-input input::placeholder{
+	color: black;
+	padding-left: 0px;
+}
+
+.form-box .form-input input:focus,
+.form-box .form-input input:valid{
+	border: 2px solid #4787ff;
+}
+
+.form-box .form-input input:focus::placeholder{
+	color: #454b69;
+}
+
+.form-box button[type="submit"]{
+	margin-top:10px;border: none;
+	cursor: pointer;
+	border-radius: 20px;
+	background: #4043e5;
+	color: #fff;
+	font-weight: bold;
+	transition: 0.5s;
+	width: 60%;
+}
+
+.form-box button[type="submit"]:hover{
+	background: #4787ff;
+}
+
+#container-welcome{ 
+	background-color: teal;
+}
